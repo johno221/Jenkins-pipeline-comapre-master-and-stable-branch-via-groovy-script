@@ -8,7 +8,10 @@ pipeline {
         
                   stage('test') {
                   steps {
-                     echo 'TEsting the application.'
+                     script {
+                         def test = 2 + 2 > 3 ? 'cool': 'not cool'
+                         echo test
+                     }
                   }}
                   stage('deploy') {
                   steps {
