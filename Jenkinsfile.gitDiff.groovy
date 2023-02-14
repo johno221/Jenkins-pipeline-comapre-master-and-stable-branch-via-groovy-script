@@ -8,7 +8,7 @@ pipeline {
         label 'slexng-slave'
     }
     environment {
-        EMAIL_RECIPIENTS = 'jan.balint@expersoft.com' //'slexng-infra@whitestein.com'
+        EMAIL_RECIPIENTS = 'ADD HERE EMAIL' 
         REGISTRY_CREDS = credentials('gitlabJenkins')
     }
 
