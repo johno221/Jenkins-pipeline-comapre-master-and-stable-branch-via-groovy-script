@@ -9,7 +9,7 @@ pipeline {
     }
     environment {
         EMAIL_RECIPIENTS = 'ADD HERE EMAIL' 
-        REGISTRY_CREDS = credentials('global')
+        REGISTRY_CREDS = credentials('ADD HERE JENKIS CREDENTIALS')
     }
 
     options {
