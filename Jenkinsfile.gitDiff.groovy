@@ -9,7 +9,7 @@ pipeline {
     }
     environment {
         EMAIL_RECIPIENTS = 'ADD HERE EMAIL' 
-        REGISTRY_CREDS = credentials('gitlabJenkins')
+        REGISTRY_CREDS = credentials('global')
     }
 
     options {
