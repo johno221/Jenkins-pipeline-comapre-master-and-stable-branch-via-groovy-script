@@ -2,7 +2,6 @@ currentBuild.displayName = "${env.BUILD_NUMBER}"
 String.metaClass.getEmpty = { delegate.allWhitespace }
 String gitLogMessage
 
-
 pipeline {
     agent {
         label 'slexng-slave'
